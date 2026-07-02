@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="public/favicon.svg" alt="Card Forge" width="80" />
-</p>
-
 <h1 align="center">Card Forge 🃏</h1>
 
 <p align="center">
