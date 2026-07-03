@@ -92,16 +92,17 @@ export function EditorSection({ cardData, updateField, uploadImage, removeImage,
                 <CardPreview cardData={cardData} cardRef={cardRef} updateField={updateField} />
               </div>
             </div>
-            <div className="mt-6 text-center">
-              <a href="https://github.com/kinguang3/Card-Forge" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-6 py-3 rounded-lg text-sm font-medium transition-all duration-300 hover:scale-105" style={{ 
+            <div className="mt-8 flex justify-center">
+              <a href="https://github.com/kinguang3/Card-Forge" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-3.5 rounded-xl text-base font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg" style={{ 
                 color: '#c9a961', 
-                backgroundColor: 'rgba(201, 169, 97, 0.1)',
-                border: '1px solid rgba(201, 169, 97, 0.3)',
+                backgroundColor: 'rgba(201, 169, 97, 0.12)',
+                border: '1px solid rgba(201, 169, 97, 0.4)',
                 fontFamily: "'Cinzel', serif",
-                letterSpacing: '0.5px'
+                letterSpacing: '0.5px',
+                boxShadow: '0 4px 15px rgba(201, 169, 97, 0.15)'
               }}>
                 <Github className="w-5 h-5" />
-                <span>GitHub</span>
+                <span>欢迎来 Star ⭐</span>
               </a>
             </div>
           </div>
