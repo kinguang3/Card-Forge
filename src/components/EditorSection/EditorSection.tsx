@@ -80,21 +80,20 @@ export function EditorSection({ cardData, updateField, uploadImage, removeImage,
           </div>
 
           <div className="lg:col-span-2">
-            <div className="backdrop-blur-xl p-8 lg:p-12 rounded-lg" style={{
+            <div className="backdrop-blur-xl p-8 lg:p-12 rounded-lg min-h-[500px] h-full flex flex-col" style={{
               backgroundColor: 'rgba(22, 33, 62, 0.5)',
               border: '1px solid rgba(201, 169, 97, 0.08)',
-              height: '500px'
             }}>
               <div className="text-center mb-4">
                 <h3 className="text-xl font-semibold mb-2" style={{ color: '#f0e6d3', fontFamily: "'Cinzel', serif", letterSpacing: '0.5px' }}>卡牌预览</h3>
                 <p className="text-sm" style={{ color: '#6b5f53', fontFamily: "'Cinzel', serif", letterSpacing: '0.3px' }}>修改左侧面板，卡牌实时更新</p>
               </div>
-              <div className="flex items-center justify-center h-[calc(100%-80px)]">
+              <div className="flex-1 flex items-center justify-center">
                 <CardPreview cardData={cardData} cardRef={cardRef} updateField={updateField} />
               </div>
             </div>
             <div className="mt-6 text-center">
-              <a href="https://github.com/kinguang3" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm transition-all hover:text-[#c9a961]" style={{ color: '#8b7d6f' }}>
+              <a href="https://github.com/kinguang3/Card-Forge" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm transition-all hover:text-[#c9a961]" style={{ color: '#8b7d6f' }}>
                 <Github className="w-4 h-4" />
                 <span>GitHub</span>
               </a>
