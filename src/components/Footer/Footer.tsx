@@ -1,4 +1,4 @@
-import { Crown, Github } from 'lucide-react';
+import { Crown } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -38,10 +38,6 @@ export function Footer() {
           <div className="flex items-center gap-6">
             <button className="text-sm transition-all hover:text-[#c9a961]" style={{ color: '#8b7d6f' }}>隐私政策</button>
             <button className="text-sm transition-all hover:text-[#c9a961]" style={{ color: '#8b7d6f' }}>服务条款</button>
-            <a href="https://github.com/kinguang3" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm transition-all hover:text-[#c9a961]" style={{ color: '#8b7d6f' }}>
-              <Github className="w-4 h-4" />
-              <span>GitHub</span>
-            </a>
           </div>
         </div>
       </div>
