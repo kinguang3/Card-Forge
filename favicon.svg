@@ -1,6 +1,1 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="32" height="32" rx="4" fill="#1E1E2E"/>
-  <rect x="4" y="3" width="24" height="26" rx="3" fill="#2D2D44" stroke="#32F08C" stroke-width="1.5"/>
-  <text x="16" y="21" text-anchor="middle" font-family="monospace" font-size="16" font-weight="bold" fill="#32F08C">C</text>
-  <rect x="10" y="7" width="12" height="1.5" rx="0.75" fill="#32F08C" opacity="0.5"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1" width="1" height="1"><rect width="1" height="1" fill="transparent"/></svg>
