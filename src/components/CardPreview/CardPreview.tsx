@@ -1,4 +1,4 @@
-﻿import { CardData } from '../../types/card';
+import { CardData } from '../../types/card';
 import { Sparkles, Sword, Shield, Move, GripHorizontal } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
 
@@ -126,7 +126,7 @@ export function CardPreview({ cardData, cardRef, updateField }: CardPreviewProps
             }}
           />
 
-          <div className="absolute inset-0">
+          <div className="absolute inset-4">
             {cardData.imageUrl ? (
               <img
                 src={cardData.imageUrl}
@@ -134,7 +134,8 @@ export function CardPreview({ cardData, cardRef, updateField }: CardPreviewProps
                 className="w-full h-full"
                 style={{
                   objectFit: getImageObjectFit(),
-                  filter: 'drop-shadow(0 4px 12px rgba(0,0,0,0.3))'
+                  filter: 'drop-shadow(0 4px 12px rgba(0,0,0,0.3))',
+                  borderRadius: cardData.rounded ? '4px' : '0px'
                 }}
               />
             ) : (
